@@ -1,0 +1,65 @@
+### --- IntelliJ IDEA Section ---
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/uiDesigner.xml
+.idea/httpRequests
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### --- Maven Section ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+
+### --- Java & OS Section ---
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
+replay_pid*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+### --- Package & Secrets ---
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.jar
+
+# Keep Maven Wrapper files (important!)
+!.mvn/
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Sensitive Config (Database passwords etc.)
+application.yml
+application.yaml
+application.properties
+application-local.yml
+application-dev.yml
+.env
